@@ -22,7 +22,7 @@ public class TestDemo {
     }
 
     public static JSONObject post(String param) {
-        //es的链接
+        //es的链接 znky_fh_property：索引 pretty:数据以json返回
         String url = "http://172.16.3.228:9200/znky_fh_property/_search?pretty";
         JSONObject result = null;
         try {
